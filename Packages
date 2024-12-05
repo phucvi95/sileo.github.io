@@ -1,0 +1,82 @@
+Package: com.mins.appclonerdrootless
+Version: 3.0-193+debug
+Architecture: iphoneos-arm64
+Maintainer: mins
+Installed-Size: 34304
+Depends: ldid, curl,  unzip,ellekit,openssh,sshpass, com.mins.spectre
+Filename: ./debs/com.mins.appclonerdrootless_3.0-193+debug_iphoneos-arm64.deb
+Size: 9945786
+MD5sum: fbcac568b8bc3d9d89f4861ae879292a
+SHA1: 2d87917830dc4084a7e545d5eba6ae44686ebf9a
+SHA256: e9be4ac7dc069d0b63f34f07cdd6dc2dadfa754a0681420e4c9755951f3129e6
+Section: System
+Description: The daemon for AppCloner
+Tag: role::hacker
+Author: mins
+Name: AppClonerDaemonRootless
+
+Package: com.mins.ramleakprevent
+Version: 0.0.1-14+debug
+Architecture: iphoneos-arm64
+Maintainer: Mins
+Installed-Size: 64
+Depends: jetslammed
+Filename: ./debs/com.mins.ramleakprevent_0.0.1-14+debug_iphoneos-arm64.deb
+Size: 5124
+MD5sum: 2e704e95f20b4d87603d7f81fad92e42
+SHA1: a48063d920a51dda1b3a91512bd6fb8d96e716ca
+SHA256: ccbf2d4db839959c2357f10ac8d7249a90e406cd65b561532b1ac219bc170628
+Section: System
+Description: Extend ram for SpringBoard
+Tag: role::hacker
+Author: Mins
+Name: RamLeak
+
+Package: com.mins.spectre
+Version: 3.0-41+debug
+Architecture: iphoneos-arm64
+Maintainer: mins
+Installed-Size: 596
+Filename: ./debs/com.mins.spectre_3.0-41+debug_iphoneos-arm64.deb
+Size: 139658
+MD5sum: cd39674ac0ced77703eb01aebf7506b4
+SHA1: 66b8ec749f4bf39c01867cb903657a340e5090e8
+SHA256: 3515fe385c09dac714e04452bda87c0bf8c3536adf27c80acdec73dfddbc57ac
+Section: Application
+Description: The UIApp for AppCloner
+Tag: role::hacker
+Author: mins
+Name: Spectre
+
+Package: com.supermamon.newpackage
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
+Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+SHA1: 46bbcd314f5bcb29e05e287f08fe50e6547ea401
+SHA256: b01c426f4e262c901fd0a9dce060d89327af05bdbd203ce7527c133c1bc8cafd
+Section: Tweaks
+Description: This is a sample new package. Firmware should be greater than 7.0
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Name: New Package
+
+Package: com.supermamon.oldpackage
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+SHA1: 44f945218a8f72e24ad69191bfee4a89bb7e9bc0
+SHA256: 2d0cf4ea9ddc1d1be3968c869ddd29bd850eae37ccd9b35d100f72b7aca62f8e
+Section: Tweaks
+Description: This is a sample old package. Firmware should be lower than 7.0
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Name: Old Package
+
