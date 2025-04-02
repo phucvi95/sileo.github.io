@@ -1,93 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>repo.me</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>apt.phucvi.me – BoostGO's APT Repository</title>
+
+    <!-- Bootstrap & Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
       integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9fafb;
+        color: #333;
+      }
+
+      .repo-header {
+        background-color: #1e293b;
+        padding: 1.5rem 0;
+        color: white;
+        margin-bottom: 2rem;
+      }
+
+      .repo-header img {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+      }
+
+      .repo-header h1 {
+        font-size: 2rem;
+        margin: 0;
+      }
+
+      .section-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 0.5rem;
+      }
+
+      .btn-primary {
+        background-color: #2563eb;
+        border-color: #2563eb;
+      }
+
+      .btn-primary:hover {
+        background-color: #1d4ed8;
+        border-color: #1d4ed8;
+      }
+
+      .card-header {
+        font-weight: 600;
+        background-color: #f1f5f9;
+      }
+    </style>
   </head>
   <body>
+    <!-- Header -->
     <div class="repo-header">
-      <div class="container">
-        <div class="d-flex align-items-center">
-          <img src="CydiaIcon.png" alt="Repository Icon" />
-          <h1>repo.me</h1>
-        </div>
+      <div class="container d-flex align-items-center">
+        <img src="favicon.png" alt="Repository Icon" />
+        <h1>apt.phucvi.me</h1>
       </div>
     </div>
 
-    <div class="container mb-4">
-      <div class="card">
+    <!-- Intro Section -->
+    <div class="container mb-5">
+      <div class="card shadow-sm border-0">
         <div class="card-body">
-          <h5 class="card-title mb-3">repo.me</h5>
-          <p class="card-text mb-4">
-            a modern apt repository template built by the community.
+          <h5 class="card-title mb-3">Welcome to repo.me</h5>
+          <p class="card-text mb-4 text-muted">
+            A modern APT repository template built by the community for the community.
           </p>
           <div class="d-flex flex-wrap gap-2">
             <a class="btn btn-primary" href="sileo://source/https://REPLACEHERE"
-              >Add to Sileo</a
+              ><i class="fab fa-safari me-1"></i> Add to Sileo</a
             >
-            <a
-              class="btn btn-primary"
-              href="zbra://sources/add/https://REPLACEHERE"
-              >Add to Zebra</a
+            <a class="btn btn-primary" href="zbra://sources/add/https://REPLACEHERE"
+              ><i class="fas fa-bars me-1"></i> Add to Zebra</a
             >
             <a class="btn btn-primary" href="apt-repo://https://REPLACEHERE"
-              >Add to Saily</a
+              ><i class="fas fa-download me-1"></i> Add to Saily</a
             >
             <a
               class="btn btn-primary"
               href="cydia://url/https://cydia.saurik.com/api/share#?source=https://REPLACEHERE"
-              >Add to Cydia</a
+              ><i class="fab fa-apple me-1"></i> Add to Cydia</a
             >
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Packages -->
     <div class="container">
       <h2 class="section-title">Featured Packages</h2>
       <div class="row g-4">
+        <!-- Old Package -->
         <div class="col-md-6">
-          <div class="card">
+          <div class="card h-100 shadow-sm border-0">
             <div class="card-header">Old Package</div>
             <div class="card-body">
               <p class="card-text">
-                This is a sample package with minimal information. It also
-                simulates an old package that's incompatible only with iOS lower
-                than 7.0.
+                A basic sample package with minimal metadata. Compatible with iOS 7.0 and above.
               </p>
               <a
-                class="btn btn-primary"
+                class="btn btn-outline-primary"
                 href="depictions/web/?p=com.example.oldsample"
                 >More info</a
               >
             </div>
           </div>
         </div>
+        <!-- New Package -->
         <div class="col-md-6">
-          <div class="card">
+          <div class="card h-100 shadow-sm border-0">
             <div class="card-header">New Package</div>
             <div class="card-body">
               <p class="card-text">
-                This is a sample package with lots of information.
+                A modern and detailed sample package, showcasing full depiction features.
               </p>
               <a
-                class="btn btn-primary"
+                class="btn btn-outline-primary"
                 href="depictions/web/?p=com.example.newsample"
                 >More info</a
               >
@@ -96,5 +143,10 @@
         </div>
       </div>
     </div>
+
+    <!-- Footer (Optional) -->
+    <footer class="text-center mt-5 mb-4 text-muted small">
+      &copy; 2025 apt.phucvi.me – All rights reserved.
+    </footer>
   </body>
 </html>
