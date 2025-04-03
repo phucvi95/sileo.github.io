@@ -2,5 +2,5 @@ rm Packages.bz2 &&
 dpkg-scanpackages -m ./debs > Packages &&
 bzip2 Packages &&
 git add . &&
-git commit -m "add rep function restore, backupo" &&
+git commit -m "add function wipe" &&
 git push
