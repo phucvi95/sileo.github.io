@@ -11,7 +11,9 @@
 
 
 - 2.0: roothide: fake info
-- 2.1: change timezone
+- 2.1:  - add lua os.set_timezone("Asia/Tokyo")
+        - add pasteboard
+        - add get device information api/device/info
 
 # Reposi3
 A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
