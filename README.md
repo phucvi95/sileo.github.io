@@ -8,7 +8,7 @@
 - 1.4.1
 - 1.4.2 n 
 - 1.4.4 : fix check restart
-
+- 1.46 : add api download scripts
 
 - 2.0: roothide: fake info
 - 2.1:  - add lua os.set_timezone("Asia/Tokyo")
