@@ -10,9 +10,9 @@
 - 1.4.4 : fix check restart
 - 1.46 : add api download scripts
 - 1.47 : add opencv
-- 1.50 : fix touch
-- 1.51 : update screen remote, view logs
-- 1.52 : update screen remote, view logs
+- 1.5.0 : fix touch
+- 1.5.1 : update screen remote, view logs
+- 1.5.2 : update screen remote, view logs, fix screen view
 
 - 2.0: roothide: fake info
 - 2.1:  - add lua os.set_timezone("Asia/Tokyo")
