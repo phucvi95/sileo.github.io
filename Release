@@ -1,7 +1,7 @@
 Origin: BoostGo
 Label: BoostGo
 Suite: stable
-Version: 4.0
+Version: 1.5.3
 Codename: ios
 Architectures: iphoneos-arm64e
 Components: main
