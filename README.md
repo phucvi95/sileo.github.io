@@ -25,6 +25,8 @@
 - 2.4: fix hide VPN
 - 2.4.1: update param name
 
+- 0.0.1: Boost Go: revert code 2024
+
 # Reposi3
 A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
 
