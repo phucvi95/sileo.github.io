@@ -24,6 +24,8 @@
 - 2.3.1: fix bug fake info
 - 2.4: fix hide VPN
 - 2.4.1: update param name
+- 3.0: no lua
+- 3.1: no lua, add log
 
 - 0.0.1: Boost Go: revert code 2024
 
