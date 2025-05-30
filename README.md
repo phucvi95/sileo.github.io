@@ -15,6 +15,7 @@
 - 1.5.2 : update screen remote, view logs, fix screen view
 - 1.5.3 : add check safe mode, suspend
 - 1.6.0 : add remote web
+- 1.6.1 : fix bug remote webrtc
 
 - 2.0: roothide: fake info
 - 2.1:  - add lua os.set_timezone("Asia/Tokyo")
