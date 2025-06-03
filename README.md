@@ -27,6 +27,7 @@
 - 2.4.1: update param name
 - 3.0: no lua
 - 3.1: no lua, add log
+- 3.12: change script folder
 
 - 0.0.1: Boost Go: revert code 2024
 
