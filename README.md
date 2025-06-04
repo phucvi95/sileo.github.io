@@ -28,6 +28,7 @@
 - 3.0: no lua
 - 3.1: no lua, add log
 - 3.12: change script folder
+- 3.14: fix auto run
 
 - 0.0.1: Boost Go: revert code 2024
 
