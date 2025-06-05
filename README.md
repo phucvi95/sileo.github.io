@@ -29,6 +29,7 @@
 - 3.1: no lua, add log
 - 3.12: change script folder
 - 3.14: fix auto run
+- 3.14: change time auto run 60s, add depends: curl, locsim
 
 - 0.0.1: Boost Go: revert code 2024
 
