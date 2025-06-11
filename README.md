@@ -31,7 +31,7 @@
 - 3.14: fix auto run
 - 3.15: change time auto run 60s
 - 3.16: add depends: curl, locsim
-- 3.16: add captcha: hook web service
+- 3.17: add captcha: hook web service
 
 - 0.0.1: Boost Go: revert code 2024
 
